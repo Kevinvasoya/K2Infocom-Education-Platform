@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Animate Css Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/cardfork2.css">
+    <link rel="stylesheet" href="css/k2.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+
+<body>
+
+
+    <nav class="Main-Nav">
+        <div class="Nav-Wrapper">
+            <div class="logo">
+                <!-- <img src="/K2 Logo_Final.png" alt=""> -->
+                <h2>K2INFOCOM</h2>
+            </div>
+            <input type="checkbox" name="nav-slide" id="button-menu"></input>
+            <input type="checkbox" name="nav-slide" id="button-menu"></input>
+            <ul class="Nav-Links">
+                <label for="button-menu" class="toggle-button-nav button-cancel ">
+                    <i class="fi fi-rr-cross"></i>
+                </label>
+                <li>
+                    <a href="k2infocom.html">HOME</a>
+                </li>
+                <li>
+                    <a href="Cardfork2.html" class="for-desktop">
+                        courses
+                    </a>
+                    <input type="checkbox" id="showMenu"></input>
+                    <label for="showMenu" class="for-mobile">
+                        courses
+                    </label>
+                    <div class="Mega-Box">
+                        <div class="Mega-Box-Content">
+                            <div class="Content-Row">
+                                <img src="images/istockphoto-1166954025-170667a.jpg" />
+                            </div>
+                            <div class="Content-Row">
+                                <header>PROGRAMMING</header>
+
+                                <ul class="Mega-Links">
+                                    <li>
+                                        <a href="#">C PROGRAMMING</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">C++ PROGRAMMING</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">JAVA PROGRAMMING</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">C# PROGRAMMING</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">PYTHON PROGRAMMING</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="Content-Row">
+                                <header>WEB DEVELOPMENT</header>
+                                <ul class="Mega-Links">
+                                    <li>
+                                        <a href="#">Website Design</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">WEB DEVELOPEMET WITH DOTNET CORE</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">WEB DEVELOPMENT WITH DOTNET MVC</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">WEB DEVELOPMENT WITH PYTHON & DJANGO</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="Content-Row">
+                                <header>FOTNTEND DEVELOPEMENT</header>
+                                <ul class="Mega-Links">
+                                    <li>
+                                        <a href="#">FRONTEND NINJA (COMPLET FRONTEND DEVE)</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">HTML CSS MEDIQ QUERY</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">JAVASCRIPT JQUERY</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">EXPERT IN JAVASCRIPT</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">REACT JS DEVELOPMENT</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">FRONT END WITH JS & REACT JS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/">blog</a>
+                </li>
+                <li>
+                    <a href='contact.html'>Contact Us</a>
+                </li>
+                <li>
+                    <a href="About-us.html">why us?</a>
+                </li>
+                <li>
+
+                    <a href="#" class="for-desktop">
+                        free courses
+                    </a>
+                    <input type="checkbox" id="showDrop"></input>
+                    <label for="showDrop" class="for-mobile">
+                        free courses
+                    </label>
+                    <ul class="Drop-Down">
+                        <li>
+                            <a href='#'>HTML CSS</a>
+                        </li>
+                        <li>
+                            <a href="#">Programming fundamentals</a>
+                        </li>
+                        <li>
+                            <a href="#">JQuery </a>
+                        </li>
+                        <li>
+                            <a href="#">Responsive Design</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- <li>
+              <a href="#">Login</a>
+            </li> -->
+                <button class="btn1-login">
+                    LOGIN
+                </button>
+            </ul>
+            <label for="button-menu" class="toggle-button-nav button-menu ">
+                <i class="fi fi-rr-align-justify"></i>
+            </label>
+        </div>
+    </nav>
+
+    <main id="tw-course-card">
+        <div class="tw-course-card">
+
+
+            <!-- First Header -->
+            <div class="tw-course-header">
+                <div class="tw-heading">
+                    <h1 class=" animate__animated animate__zoomInDown">Find The Right
+                        Offline Course found For You
+                    </h1>
+                    <p>You don't have to struggle alone, you've got our assistance and help.</p>
+                </div>
+                <!-- <div class="tw-course-menu-first">
+                    <ul>
+                        <li><a href="#">See All</a></li>
+                        <li><a href="#">New Trending</a></li>
+                        <li><a href="#">Popularity</a></li>
+                        <li><a href="#">Featured</a></li>
+                        <li><a href="#">Art & Design</a></li>
+                    </ul>
+                </div> -->
+            </div>
+            <!-- First Header End -->
+
+
+            <div id="tw-course-card-container">
+                <div class="course-maincard">
+                    <div class="course-poster">
+                        <img src="images/course-1.jpg">
+                        <h6>Programming</h6>
+                    </div>
+                    <div class="maincard-content">
+                        <!-- First Panel -->
+                        <div class="first-panel">
+                            <div class="lesson">
+                                <span><i class="fa-solid fa-book"></i></span>
+                                <p>43 Lesson</p>
+                            </div>
+                            <div class="lesson">
+                                <span><i class="fa-solid fa-star" id="star"></i></span>
+                                <p style="margin-right:5px;">4.5</p>
+                                <p>(44)</p>
+                            </div>
+                            <!-- First Panel End -->
+                        </div>
+                        <div class="second-panel">
+                            <h2>Basic Fundamental of Programming
+                            </h2>
+                        </div>
+                        <div class="third-panel">
+                            <div class="instructor-dp"></div>
+                            <div class="instructor-name">
+                                <h6>Jim Séchen</h6>
+                            </div>
+                        </div>
+                        <div class="bottomborder"></div>
+                        <div class="fourth-panel">
+                            <h6>Free</h6>
+                            <div class="tw-knowmore">
+                                <h6>Know Details</h6>
+                                <span><i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tw-hover-card">
+                        <div class="tw-course-detail">
+                            <div class="tw-instructor">
+                                <div class="instructor-dp"></div>
+                                <div class="intructor-name">
+                                    <h6>Jim Séchen</h6>
+                                </div>
+                            </div>
+
+                            <h3 id="course-name">Basic Fundamental of Programming</h3>
+                            <p id="course-brief">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, numquam?
+                            </p>
+                            <div class="tw-course-level">
+                                <div class="tw-level">
+                                    <span><i class="fa fa-signal"></i></span>
+                                    <h6>Beginner</h6>
+                                </div>
+                                <div class="tw-duration">
+                                    <span><i class="fa fa-clock"></i></span>
+                                    <h6>5 Hours</h6>
+                                </div>
+                            </div>
+
+                            <a href="#"><input type="button" value="PREVIEW THIS COURSE"></a>
+                            <div class="wishlist-price">
+                                <div class="wishlist">
+                                    <span><i class="fa-regular fa-heart"></i></i></span>
+                                    <h6>Add To Wishlist</a>
+                                </div>
+                                <div class="price">
+                                    <h6>Free</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-maincard">
+                    <div class="course-poster">
+                        <img src="images/course-2.jpg" alt="">
+                        <h6>Designing</h6>
+                    </div>
+                    <div class="maincard-content">
+                        <!-- First Panel -->
+                        <div class="first-panel">
+                            <div class="lesson">
+                                <span><i class="fa-solid fa-book"></i></span>
+                                <p>43 Lesson</p>
+                            </div>
+                            <div class="lesson">
+                                <span><i class="fa-solid fa-star" id="star"></i></span>
+                                <p style="margin-right:5px;">4.5</p>
+                                <p>(44)</p>
+                            </div>
+                            <!-- First Panel End -->
+                        </div>
+                        <div class="second-panel">
+                            <h2>Adobe Photoshop , Illustration
+                            </h2>
+                        </div>
+                        <div class="third-panel">
+                            <div class="instructor-dp"></div>
+                            <div class="instructor-name">
+                                <h6>Jim Séchen</h6>
+                            </div>
+                        </div>
+                        <div class="bottomborder"></div>
+                        <div class="fourth-panel">
+                            <h6>$90</h6>
+                            <div class="tw-knowmore">
+                                <h6><a href="course-detail.html">Know Details</a></h6>
+                                <span><i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tw-hover-card">
+                        <div class="tw-course-detail">
+                            <div class="tw-instructor">
+                                <div class="instructor-dp"></div>
+                                <div class="intructor-name">
+                                    <h6>Jim Séchen</h6>
+                                </div>
+                            </div>
+
+                            <h3 id="course-name">Adobe Photoshop , Illustration</h3>
+                            <p id="course-brief">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, numquam?
+                            </p>
+                            <div class="tw-course-level">
+                                <div class="tw-level">
+                                    <span><i class="fa fa-signal"></i></span>
+                                    <h6>Intermiddiate</h6>
+                                </div>
+                                <div class="tw-duration">
+                                    <span><i class="fa fa-clock"></i></span>
+                                    <h6>5 Hours</h6>
+                                </div>
+                            </div>
+
+                            <a href="course-detail.html"><input type="button" value="PREVIEW THIS COURSE"></a>
+                            <div class="wishlist-price">
+                                <div class="wishlist">
+                                    <span><i class="fa-regular fa-heart"></i></i></span>
+                                    <h6>Add To Wishlist</a>
+                                </div>
+                                <div class="price">
+                                    <h6>$90</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="course-maincard">
+                    <div class="course-poster">
+                        <img src="images/course-3.jpg" alt="">
+                        <h6>Web Development</h6>
+                    </div>
+                    <div class="maincard-content">
+                        <!-- First Panel -->
+                        <div class="first-panel">
+                            <div class="lesson">
+                                <span><i class="fa-solid fa-book"></i></span>
+                                <p>43 Lesson</p>
+                            </div>
+                            <div class="lesson">
+                                <span><i class="fa-solid fa-star" id="star"></i></span>
+                                <p style="margin-right:5px;">4.5</p>
+                                <p>(44)</p>
+                            </div>
+                            <!-- First Panel End -->
+                        </div>
+                        <div class="second-panel">
+                            <h2>Front-End Web Development
+                            </h2>
+                        </div>
+                        <div class="third-panel">
+                            <div class="instructor-dp"></div>
+                            <div class="instructor-name">
+                                <h6>Jim Séchen</h6>
+                            </div>
+                        </div>
+                        <div class="bottomborder"></div>
+                        <div class="fourth-panel">
+                            <h6>$120</h6>
+                            <div class="tw-knowmore">
+                                <h6>Know Details</h6>
+                                <span><i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tw-hover-card">
+                        <div class="tw-course-detail">
+                            <div class="tw-instructor">
+                                <div class="instructor-dp"></div>
+                                <div class="intructor-name">
+                                    <h6>Jim Séchen</h6>
+                                </div>
+                            </div>
+
+                            <h3 id="course-name">Front-End Web Development</h3>
+                            <p id="course-brief">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, numquam?
+                            </p>
+                            <div class="tw-course-level">
+                                <div class="tw-level">
+                                    <span><i class="fa fa-signal"></i></span>
+                                    <h6>Intermiddiate</h6>
+                                </div>
+                                <div class="tw-duration">
+                                    <span><i class="fa fa-clock"></i></span>
+                                    <h6>5 Hours</h6>
+                                </div>
+                            </div>
+
+                            <a href=""><input type="button" value="PREVIEW THIS COURSE"></a>
+                            <div class="wishlist-price">
+                                <div class="wishlist">
+                                    <span><i class="fa-regular fa-heart"></i></i></span>
+                                    <h6>Add To Wishlist</a>
+                                </div>
+                                <div class="price">
+                                    <h6>$120</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="course-maincard">
+                    <div class="course-poster">
+                        <img src="images/course-1.jpg" alt="">
+                        <h6>Web Development</h6>
+                    </div>
+                    <div class="maincard-content">
+                        <!-- First Panel -->
+                        <div class="first-panel">
+                            <div class="lesson">
+                                <span><i class="fa-solid fa-book"></i></span>
+                                <p>43 Lesson</p>
+                            </div>
+                            <div class="lesson">
+                                <span><i class="fa-solid fa-star" id="star"></i></span>
+                                <p style="margin-right:5px;">4.5</p>
+                                <p>(44)</p>
+                            </div>
+                            <!-- First Panel End -->
+                        </div>
+                        <div class="second-panel">
+                            <h2>Full Stack Web Development
+                            </h2>
+                        </div>
+                        <div class="third-panel">
+                            <div class="instructor-dp"></div>
+                            <div class="instructor-name">
+                                <h6>Jim Séchen</h6>
+                            </div>
+                        </div>
+                        <div class="bottomborder"></div>
+                        <div class="fourth-panel">
+                            <h6>Free</h6>
+                            <div class="tw-knowmore">
+                                <h6>Know Details</h6>
+                                <span><i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tw-hover-card">
+                        <div class="tw-course-detail">
+                            <div class="tw-instructor">
+                                <div class="instructor-dp"></div>
+                                <div class="intructor-name">
+                                    <h6>Jim Séchen</h6>
+                                </div>
+                            </div>
+
+                            <h3 id="course-name">Full Stack Web Development</h3>
+                            <p id="course-brief">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, numquam?
+                            </p>
+                            <div class="tw-course-level">
+                                <div class="tw-level">
+                                    <span><i class="fa fa-signal"></i></span>
+                                    <h6>Intermiddiate</h6>
+                                </div>
+                                <div class="tw-duration">
+                                    <span><i class="fa fa-clock"></i></span>
+                                    <h6>5 Hours</h6>
+                                </div>
+                            </div>
+
+                            <a href=""><input type="button" value="PREVIEW THIS COURSE"></a>
+                            <div class="wishlist-price">
+                                <div class="wishlist">
+                                    <span><i class="fa-regular fa-heart"></i></i></span>
+                                    <h6>Add To Wishlist</a>
+                                </div>
+                                <div class="price">
+                                    <h6>$250</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="course-maincard">
+                    <div class="course-poster">
+                        <img src="images/course-4.jpg" alt="">
+                        <h6>Programming</h6>
+                    </div>
+                    <div class="maincard-content">
+                        <!-- First Panel -->
+                        <div class="first-panel">
+                            <div class="lesson">
+                                <span><i class="fa-solid fa-book"></i></span>
+                                <p>43 Lesson</p>
+                            </div>
+                            <div class="lesson">
+                                <span><i class="fa-solid fa-star" id="star"></i></span>
+                                <p style="margin-right:5px;">4.5</p>
+                                <p>(44)</p>
+                            </div>
+                            <!-- First Panel End -->
+                        </div>
+                        <div class="second-panel">
+                            <h2>Dot Net Core Developer
+                            </h2>
+                        </div>
+                        <div class="third-panel">
+                            <div class="instructor-dp"></div>
+                            <div class="instructor-name">
+                                <h6>Jim Séchen</h6>
+                            </div>
+                        </div>
+                        <div class="bottomborder"></div>
+                        <div class="fourth-panel">
+                            <h6>Free</h6>
+                            <div class="tw-knowmore">
+                                <h6>Know Details</h6>
+                                <span><i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tw-hover-card">
+                        <div class="tw-course-detail">
+                            <div class="tw-instructor">
+                                <div class="instructor-dp"></div>
+                                <div class="intructor-name">
+                                    <h6>Jim Séchen</h6>
+                                </div>
+                            </div>
+
+                            <h3 id="course-name">Dot Net Core Developer</h3>
+                            <p id="course-brief">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, numquam?
+                            </p>
+                            <div class="tw-course-level">
+                                <div class="tw-level">
+                                    <span><i class="fa fa-signal"></i></span>
+                                    <h6>Intermiddiate</h6>
+                                </div>
+                                <div class="tw-duration">
+                                    <span><i class="fa fa-clock"></i></span>
+                                    <h6>5 Hours</h6>
+                                </div>
+                            </div>
+
+                            <a href=""><input type="button" value="PREVIEW THIS COURSE"></a>
+                            <div class="wishlist-price">
+                                <div class="wishlist">
+                                    <span><i class="fa-regular fa-heart"></i></i></span>
+                                    <h6>Add To Wishlist</a>
+                                </div>
+                                <div class="price">
+                                    <h6>$30</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="course-maincard">
+                    <div class="course-poster">
+                        <img src="images/course-5.jpg" alt="">
+                        <h6>Programming</h6>
+                    </div>
+                    <div class="maincard-content">
+                        <!-- First Panel -->
+                        <div class="first-panel">
+                            <div class="lesson">
+                                <span><i class="fa-solid fa-book"></i></span>
+                                <p>43 Lesson</p>
+                            </div>
+                            <div class="lesson">
+                                <span><i class="fa-solid fa-star" id="star"></i></span>
+                                <p style="margin-right:5px;">4.5</p>
+                                <p>(44)</p>
+                            </div>
+                            <!-- First Panel End -->
+                        </div>
+                        <div class="second-panel">
+                            <h2> C#,Dotnet Core Backend Developer
+                            </h2>
+                        </div>
+                        <div class="third-panel">
+                            <div class="instructor-dp"></div>
+                            <div class="instructor-name">
+                                <h6>Jim Séchen</h6>
+                            </div>
+                        </div>
+                        <div class="bottomborder"></div>
+                        <div class="fourth-panel">
+                            <h6>Free</h6>
+                            <div class="tw-knowmore">
+                                <h6>Know Details</h6>
+                                <span><i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tw-hover-card">
+                        <div class="tw-course-detail">
+                            <div class="tw-instructor">
+                                <div class="instructor-dp"></div>
+                                <div class="intructor-name">
+                                    <h6>Jim Séchen</h6>
+                                </div>
+                            </div>
+
+                            <h3 id="course-name">C# , Dotnet Core Backend Developer</h3>
+                            <p id="course-brief">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, numquam?
+                            </p>
+                            <div class="tw-course-level">
+                                <div class="tw-level">
+                                    <span><i class="fa fa-signal"></i></span>
+                                    <h6>Intermiddiate</h6>
+                                </div>
+                                <div class="tw-duration">
+                                    <span><i class="fa fa-clock"></i></span>
+                                    <h6>5 Hours</h6>
+                                </div>
+                            </div>
+
+                            <a href=""><input type="button" value="PREVIEW THIS COURSE"></a>
+                            <div class="wishlist-price">
+                                <div class="wishlist">
+                                    <span><i class="fa-regular fa-heart"></i></i></span>
+                                    <h6>Add To Wishlist</a>
+                                </div>
+                                <div class="price">
+                                    <h6>$30</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="course-maincard">
+                    <div class="course-poster">
+                        <img src="images/course-6.jpg" alt="">
+                        <h6>Programming</h6>
+                    </div>
+                    <div class="maincard-content">
+                        <!-- First Panel -->
+                        <div class="first-panel">
+                            <div class="lesson">
+                                <span><i class="fa-solid fa-book"></i></span>
+                                <p>43 Lesson</p>
+                            </div>
+                            <div class="lesson">
+                                <span><i class="fa-solid fa-star" id="star"></i></span>
+                                <p style="margin-right:5px;">4.5</p>
+                                <p>(44)</p>
+                            </div>
+                            <!-- First Panel End -->
+                        </div>
+                        <div class="second-panel">
+                            <h2>React Developer
+                            </h2>
+                        </div>
+                        <div class="third-panel">
+                            <div class="instructor-dp"></div>
+                            <div class="instructor-name">
+                                <h6>Jim Séchen</h6>
+                            </div>
+                        </div>
+                        <div class="bottomborder"></div>
+                        <div class="fourth-panel">
+                            <h6>Free</h6>
+                            <div class="tw-knowmore">
+                                <h6>Know Details</h6>
+                                <span><i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tw-hover-card">
+                        <div class="tw-course-detail">
+                            <div class="tw-instructor">
+                                <div class="instructor-dp"></div>
+                                <div class="intructor-name">
+                                    <h6>Jim Séchen</h6>
+                                </div>
+                            </div>
+
+                            <h3 id="course-name">React Developer</h3>
+                            <p id="course-brief">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, numquam?
+                            </p>
+                            <div class="tw-course-level">
+                                <div class="tw-level">
+                                    <span><i class="fa fa-signal"></i></span>
+                                    <h6>Intermiddiate</h6>
+                                </div>
+                                <div class="tw-duration">
+                                    <span><i class="fa fa-clock"></i></span>
+                                    <h6>5 Hours</h6>
+                                </div>
+                            </div>
+
+                            <a href=""><input type="button" value="PREVIEW THIS COURSE"></a>
+                            <div class="wishlist-price">
+                                <div class="wishlist">
+                                    <span><i class="fa-regular fa-heart"></i></i></span>
+                                    <h6>Add To Wishlist</a>
+                                </div>
+                                <div class="price">
+                                    <h6>$30</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer id="tw-main-footer">
+        <div class="footer-container">
+            <div class="footer-box-start">
+                <img src="images/cta-shape.png" alt="">
+                <h3>You can be your own <br>Guiding star with our help</h3>
+                <input type="button" value="Get Started">
+            </div>
+            <div class="footer-box-main">
+                <div class="footer-content-big">
+                    <img src="images/k2logoNew.png" alt="">
+                    <h3>Great lesson ideas and lesson plans for ESL teachers! Educators can customize lesson plans
+                        to
+                        best</h3>
+                    <div class="social-handle">
+                        <span><a href=""><i class="fa-brands fa-instagram"></i></a></span>
+                        <span><a href=""><i class="fa-brands fa-facebook"></i></a></span>
+                        <span><a href=""><i class="fa-brands fa-twitter"></i></a></span>
+                        <span><a href=""><i class="fa-brands fa-linkedin"></i></a></span>
+
+                    </div>
+                </div>
+                <div class="footer-content-small">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Instructor</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Become a Teacher</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content-small">
+                    <h3>Platform</h3>
+                    <ul>
+                        <li><a href="#">Browser Library</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">News &Blogs</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Tutorials
+
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="footer-content-big">
+                    <h4>Subscribe</h4>
+                    <div class="tw-getupdates">
+                        <input type="text" name="emailaddress" id="emailaddress" placeholder="Your Email Address">
+                        <span><i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                    <p>Get the latest news and updates right at your inbox.</p>
+                </div>
+            </div>
+            <div class="footer-box-last">
+                <h4>© 2022 Educal, All Rights Reserved. Design By K2Infocom</h4>
+            </div> -->
+        </div>
+    </footer>
+
+</body>
+
+</html>

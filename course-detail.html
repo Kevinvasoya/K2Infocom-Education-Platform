@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course-detail</title>
+    <link rel="stylesheet" href="css/course-detail.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/k2.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+
+<body>
+
+    <nav class="Main-Nav">
+        <div class="Nav-Wrapper">
+            <div class="logo">
+                <!-- <img src="/K2 Logo_Final.png" alt=""> -->
+                <h2>K2INFOCOM</h2>
+            </div>
+            <input type="checkbox" name="nav-slide" id="button-menu"></input>
+            <input type="checkbox" name="nav-slide" id="button-menu"></input>
+            <ul class="Nav-Links">
+                <label for="button-menu" class="toggle-button-nav button-cancel ">
+                    <i class="fi fi-rr-cross"></i>
+                </label>
+                <li>
+                    <a href="k2infocom.html">HOME</a>
+                </li>
+                <li>
+                    <a href="Cardfork2.html" class="for-desktop">
+                        courses
+                    </a>
+                    <input type="checkbox" id="showMenu"></input>
+                    <label for="showMenu" class="for-mobile">
+                        courses
+                    </label>
+                    <div class="Mega-Box">
+                        <div class="Mega-Box-Content">
+                            <div class="Content-Row">
+                                <img src="images/istockphoto-1166954025-170667a.jpg" />
+                            </div>
+                            <div class="Content-Row">
+                                <header>PROGRAMMING</header>
+
+                                <ul class="Mega-Links">
+                                    <li>
+                                        <a href="#">C PROGRAMMING</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">C++ PROGRAMMING</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">JAVA PROGRAMMING</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">C# PROGRAMMING</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">PYTHON PROGRAMMING</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="Content-Row">
+                                <header>WEB DEVELOPMENT</header>
+                                <ul class="Mega-Links">
+                                    <li>
+                                        <a href="#">Website Design</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">WEB DEVELOPEMET WITH DOTNET CORE</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">WEB DEVELOPMENT WITH DOTNET MVC</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">WEB DEVELOPMENT WITH PYTHON & DJANGO</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="Content-Row">
+                                <header>FOTNTEND DEVELOPEMENT</header>
+                                <ul class="Mega-Links">
+                                    <li>
+                                        <a href="#">FRONTEND NINJA (COMPLET FRONTEND DEVE)</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">HTML CSS MEDIQ QUERY</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">JAVASCRIPT JQUERY</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">EXPERT IN JAVASCRIPT</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">REACT JS DEVELOPMENT</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">FRONT END WITH JS & REACT JS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/">blog</a>
+                </li>
+                <li>
+                    <a href='contact.html'>Contact Us</a>
+                </li>
+                <li>
+                    <a href="About-us.html">why us?</a>
+                </li>
+                <li>
+
+                    <a href="#" class="for-desktop">
+                        free courses
+                    </a>
+                    <input type="checkbox" id="showDrop"></input>
+                    <label for="showDrop" class="for-mobile">
+                        free courses
+                    </label>
+                    <ul class="Drop-Down">
+                        <li>
+                            <a href='#'>HTML CSS</a>
+                        </li>
+                        <li>
+                            <a href="#">Programming fundamentals</a>
+                        </li>
+                        <li>
+                            <a href="#">JQuery </a>
+                        </li>
+                        <li>
+                            <a href="#">Responsive Design</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- <li>
+              <a href="#">Login</a>
+            </li> -->
+                <button class="btn1-login">
+                    LOGIN
+                </button>
+            </ul>
+            <label for="button-menu" class="toggle-button-nav button-menu ">
+                <i class="fi fi-rr-align-justify"></i>
+            </label>
+        </div>
+    </nav>
+
+
+    <!-- Course Detail -->
+    <section id="course-detail">
+        <div class="tw-category">
+            <div class="course-category">
+
+                <!-- Category Detail -->
+                <div class="category-name">
+                    <div class="category-icon">
+                        <i class="fa-regular fa-bookmark"></i>
+                    </div>
+                    <div id="category-name">
+                        <h6 style="font-size: 12px;">Category:</h6>
+                        <a href="#" id="cat-name"
+                            style="font-size: 18px; text-decoration: none; color: black; font-weight: bold; ">
+                            Productivity & Management
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Instructor Details -->
+                <div class="Instructor">
+                    <div class="instructor-dp">
+
+                    </div>
+                    <div id="Instructor">
+                        <h6 style="font-size: 12px;">Teacher:</h6>
+                        <a href="#" id="instructor-name"
+                            style="font-size: 18px; text-decoration: none; color: black; font-weight: bold; ">Jack
+                            Wilson</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tw-wishlist">
+                <span><i class="fa-regular fa-heart" style="font-size: 20px;margin-right: 10px;"></i></span>
+                <a href="#">Add To Wishlist</a>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Section Of Course Information -->
+    <section id="Course_Container">
+        <div class="course_container">
+            <div class="course-name-enroll">
+                <h1>The Complete JavaScript Course 2022: From Zero to Expert!
+                </h1>
+                <button><a href="#" class="Enroll-now">Enroll Now</a></button>
+                <button><a href="#" class="Enroll-now">Notify Me</a></button>
+
+                <div class="course-wishlist">
+                    <span><i class="fa-regular fa-heart" style="font-size: 20px;margin-right: 10px;"></i></span>
+                    <a href="#">Add To Wishlist</a>
+                </div>
+            </div>
+            <div class="course-banner">
+                <img src="images/js.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Section For Poster and Short Detail -->
+    <section id="Container-Description">
+        <div class="container-description">
+            <div class="left-side-details">
+                <div class="course-info-single">
+                    <span><i class="fa-solid fa-person"></i></span>
+                    <h3>Enrolled : 15 Students</h3>
+                </div>
+                <div class="course-info-single">
+                    <span><i class="fa-solid fa-person"></i></span>
+                    <h3>Total Hours : 48 Hours</h3>
+                </div>
+                <div class="course-info-single">
+                    <span><i class="fa-solid fa-person"></i></span>
+                    <h3>Lectures : 96 </h3>
+                </div>
+                <div class="course-info-single">
+                    <span><i class="fa-solid fa-person"></i></span>
+                    <h3>Level : Beginner</h3>
+                </div>
+                <div class="course-info-single" style="border-bottom: 0px;">
+                    <span><i class="fa-solid fa-person"></i></span>
+                    <h3>Video : 48 Hours</h3>
+                </div>
+            </div>
+            <div class="right-side-poster">
+                <img src="images/react.webp" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section for Tabs  -->
+
+    <section id="Container-Tabs">
+        <div class="container-tabs">
+
+            <div class="left-side-details">
+                <h2 class="Popular_Courses">Popular Courses</h2>
+                <div id="small-card">
+                    <div class="small-card">
+                        <div class="small-card-poster">
+                            <img src="images/js.png" alt="">
+                        </div>
+                        <div class="small-card-detail">
+                            <a href="#">The Complete JavaScript Course 2022: From Zero to Expert!</a>
+                            <button id="pricing"><label for="pricing">$30</label></button>
+                        </div>
+                    </div>
+                    <div class="small-card">
+                        <div class="small-card-poster">
+                            <img src="images/js.png" alt="">
+                        </div>
+                        <div class="small-card-detail">
+                            <a href="#">The Complete JavaScript Course 2022: From Zero to Expert!</a>
+                            <button id="pricing"><label for="pricing">$30</label></button>
+                        </div>
+                    </div>
+                    <div class="small-card">
+                        <div class="small-card-poster">
+                            <img src="images/python.png" alt="">
+                        </div>
+                        <div class="small-card-detail">
+                            <a href="#">The Complete Python Course 2022: From Zero to Expert!</a>
+                            <button id="pricing"><label for="pricing">$30</label></button>
+                        </div>
+                    </div>
+                    <div class="small-card">
+                        <div class="small-card-poster">
+                            <img src="images/python.png" alt="">
+                        </div>
+                        <div class="small-card-detail">
+                            <a href="#">The Complete Python Course 2022: From Zero to Expert!</a>
+                            <button id="pricing"><label for="pricing">$30</label></button>
+                        </div>
+                    </div>
+                    <div class="small-card">
+                        <div class="small-card-poster">
+                            <img src="images/python.png" alt="">
+                        </div>
+                        <div class="small-card-detail">
+                            <a href="#">The Complete Python Course 2022: From Zero to Expert!</a>
+                            <button id="pricing"><label for="pricing">$30</label></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-side-course-tabs">
+                <div class="Tab-Tags">
+
+                    <input type="radio" name="tab" id="tab-nav-1" checked>
+                    <label for="tab-nav-1">Description</label>
+
+                    <input type="radio" name="tab" id="tab-nav-2">
+                    <label for="tab-nav-2">Curriculum</label>
+
+                    <input type="radio" name="tab" id="tab-nav-3">
+                    <label for="tab-nav-3">FAQ</label>
+
+                    <input type="radio" name="tab" id="tab-nav-4">
+                    <label for="tab-nav-4">Batches</label>
+
+                    <div class="tabs">
+                        <div class="Info">
+                            <h2>MasterStudy is the best choice for everyone!</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ducimus dolorem,
+                                quibusdam enim amet impedit debitis, voluptas aperiam tenetur, hic quo obcaecati
+                                corrupti. Aliquam aperiam sed et assumenda sequi est sunt laudantium sit dolorum harum
+                                temporibus dolores debitis, officia architecto quaerat accusantium incidunt quisquam
+                                deleniti ad deserunt magnam cum aliquid. Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Earum eum porro omnis soluta nemo, ducimus praesentium quo nesciunt
+                                similique inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+                                eos itaque. Perspiciatis consequatur quae, sed rem fuga magni quibusdam delectus? Lorem
+                                ipsum dolor sit amet consectetur adipisicing elit. Nihil officia asperiores nemo vitae
+                                ullam, ducimus labore temporibus officiis rerum! Nostrum Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Deleniti eligendi a ratione consectetur earum
+                                reprehenderit, consequatur omnis perferendis. Dicta doloremque reiciendis deserunt.
+                                Totam asperiores corporis, dicta nisi, dolorem impedit, accusamus dolore harum commodi
+                                exercitationem velit sunt officia! Dicta in maxime, ducimus fuga eos pariatur. Voluptate
+                                consectetur animi delectus illum ea. Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Iste, dolore possimus, repellendus sint eaque exercitationem fugit eveniet ullam
+                                aspernatur quidem a nam quas esse tenetur itaque ex. Exercitationem quidem omnis veniam,
+                                maxime ipsam repudiandae possimus temporibus sed totam at magnam nostrum ea enim in
+                                harum architecto doloremque obcaecati. Fugit nam quo quibusdam blanditiis similique
+                                libero, asperiores, eum itaque beatae expedita placeat? Iure quia dolorum voluptatibus
+                                modi? Doloribus voluptates natus, minima delectus sit explicabo voluptatibus neque ipsa
+                                similique possimus rerum alias maiores modi aperiam quis harum nesciunt cum deleniti
+                                voluptatum? Minima perspiciatis reprehenderit ab architecto itaque ea qui velit delectus
+                                ducimus repellat sunt blanditiis alias nemo, hic possimus saepe pariatur! Est itaque,
+                                temporibus culpa nobis repudiandae ducimus vero quisquam accusamus laboriosam vitae
+                                tempora omnis velit nostrum assumenda nemo, quae atque rerum hic, similique magni. Nam
+                                placeat eligendi cupiditate quibusdam blanditiis. Distinctio sint hic at obcaecati,
+                                officia veritatis molestias iste! Obcaecati in corrupti optio, molestiae ea voluptatibus
+                                voluptatem delectus porro ipsa nihil dolorem necessitatibus perferendis voluptas aliquam
+                                cupiditate adipisci ullam officia deleniti, possimus ducimus est? Assumenda facere modi
+                                nesciunt laboriosam reprehenderit rerum, est atque iusto accusantium cum quaerat nobis
+                                sapiente vel corporis ratione quis quos ducimus, voluptatibus a accusamus aliquid ipsa!
+                                Tempore ducimus sunt dignissimos ipsa recusandae eaque expedita, laudantium eum quasi
+                                error. Vitae iste eius repellendus cupiditate earum minus omnis magni in. Error iusto
+                                cupiditate libero ad blanditiis accusantium quia ullam corporis excepturi. Harum
+                                doloremque deleniti quos vitae, et tempore veniam repellendus eligendi numquam aliquam
+                                maxime dignissimos quas doloribus quasi, odit saepe? Inventore odio voluptates
+                                laudantium omnis quam repellat, eligendi minus esse? Nihil necessitatibus ullam eligendi
+                                corporis, debitis doloribus dicta deleniti quibusdam quisquam, quia corrupti tempore.
+                                Quis officiis culpa laborum accusamus dolorum sunt, ea accusantium nostrum laudantium,
+                                sint atque quaerat illo commodi odit, magni natus perspiciatis provident enim obcaecati
+                                eum ducimus quae! Suscipit, temporibus tenetur, quisquam nesciunt quasi voluptatum
+                                repellat animi voluptatibus vitae distinctio quam ducimus debitis eius maxime quae
+                                incidunt porro laboriosam. Aliquam, vero animi dicta odio iste dignissimos. Inventore
+                                fugiat laudantium magnam facilis reiciendis, ullam suscipit nemo enim, optio vero quasi
+                                quos in possimus quo dolore repellendus commodi impedit tenetur voluptatum repellat!
+                                Quas inventore ullam mollitia ducimus nihil ab voluptatibus, tempora in, voluptatem
+                                adipisci hic itaque excepturi illum rem explicabo beatae vero modi nisi odit incidunt
+                                praesentium nobis quia esse magni. Dolores quibusdam repellat et hic possimus iste
+                                necessitatibus, sapiente commodi, delectus vitae quo omnis veritatis ut. Architecto
+                                ducimus omnis sed ex officia nulla qui eius incidunt ad eveniet illo, dolor, impedit
+                                accusantium harum quibusdam aliquid obcaecati aut inventore modi ullam, temporibus
+                                aperiam ipsam molestiae? Excepturi tempore ullam reprehenderit libero aperiam et,
+                                doloremque voluptatem cum earum velit quis commodi laudantium. At, delectus natus.
+                                Veritatis soluta perferendis saepe vitae natus nobis recusandae ipsum corporis dolor
+                                tempore nisi quo porro similique, aliquam amet nesciunt, suscipit nulla assumenda
+                                accusantium ab esse ipsam hic quam? Nemo maiores praesentium corporis labore dolorem
+                                facilis rem fugiat quaerat et aliquam, quam voluptatem, adipisci eum possimus iste
+                                explicabo repudiandae quia, numquam dicta itaque odit distinctio ducimus veritatis!</p>
+                        </div>
+                        <div class="Info">
+                            <h2>MasterStudy is the best choice for everyone!</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ducimus dolorem,
+                                quibusdam enim amet impedit debitis, voluptas aperiam tenetur, hic quo obcaecati
+                                corrupti. Aliquam aperiam sed et assumenda sequi est sunt laudantium sit dolorum harum
+                                temporibus dolores debitis, officia architecto quaerat accusantium incidunt quisquam
+                                deleniti ad deserunt magnam cum aliquid.</p>
+                        </div>
+                        <div class="Info">
+                            <h2> Batches MasterStudy is the best choice for everyone!</h2>
+                            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ducimus dolorem,
+                                quibusdam enim amet impedit debitis, voluptas aperiam tenetur, hic quo obcaecati
+                                corrupti. Aliquam aperiam sed et assumenda sequi est sunt laudantium sit dolorum harum
+                                temporibus dolores debitis, officia architecto quaerat accusantium incidunt quisquam
+                                deleniti ad deserunt magnam cum aliquid.</p>
+                        </div>
+                        <div class="Info">
+                            <h2> FAQ MasterStudy is the best choice for everyone!</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ducimus dolorem,
+                                quibusdam enim amet impedit debitis, voluptas aperiam tenetur, hic quo obcaecati
+                                corrupti. Aliquam aperiam sed et assumenda sequi est sunt laudantium sit dolorum harum
+                                temporibus dolores debitis, officia architecto quaerat accusantium incidunt quisquam
+                                deleniti ad deserunt magnam cum aliquid.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <footer id="tw-main-footer">
+            <div class="footer-container">
+                <div class="footer-box-start">
+                    <img src="images/cta-shape.png" alt="">
+                    <h3>You can be your own <br>Guiding star with our help</h3>
+                    <input type="button" value="Get Started">
+                </div>
+                <div class="footer-box-main">
+                    <div class="footer-content-big">
+                        <img src="images/k2logoNew.png" alt="">
+                        <h3>Great lesson ideas and lesson plans for ESL teachers! Educators can customize lesson plans
+                            to
+                            best</h3>
+                        <div class="social-handle">
+                            <span><a href=""><i class="fa-brands fa-instagram"></i></a></span>
+                            <span><a href=""><i class="fa-brands fa-facebook"></i></a></span>
+                            <span><a href=""><i class="fa-brands fa-twitter"></i></a></span>
+                            <span><a href=""><i class="fa-brands fa-linkedin"></i></a></span>
+
+                        </div>
+                    </div>
+                    <div class="footer-content-small">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Instructor</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Become a Teacher</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-content-small">
+                        <h3>Platform</h3>
+                        <ul>
+                            <li><a href="#">Browser Library</a></li>
+                            <li><a href="#">Library</a></li>
+                            <li><a href="#">Partners</a></li>
+                            <li><a href="#">News &Blogs</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Tutorials
+
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-content-big">
+                        <h4>Subscribe</h4>
+                        <div class="tw-getupdates">
+                            <input type="text" name="emailaddress" id="emailaddress" placeholder="Your Email Address">
+                            <span><i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                        <p>Get the latest news and updates right at your inbox.</p>
+                    </div>
+                </div>
+                <div class="footer-box-last">
+                    <h4>© 2022 Educal, All Rights Reserved. Design By K2Infocom</h4>
+                </div> -->
+            </div>
+        </footer>
+
+</body>
+
+</html>

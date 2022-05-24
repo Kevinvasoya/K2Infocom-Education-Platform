@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Codystar&family=Lexend:wght@200&family=Syne&display=swap');
+/* 
+font-family: 'Cabin', sans-serif;
+font-family: 'Codystar', cursive;
+font-family: 'Lexend', sans-serif;
+font-family: 'Syne', sans-serif; */
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 10vh; 
+    /* background: url(asset/Images/Design.gif); */
+}
+#tw-course-card{
+    width: 100%;
+    min-height: 10vh;
+    /* background:linear-gradient(90deg, rgba(0,0,0,0.34)0%,rgba(0,0,0,0.30)100%,rgba(0,0,0,0.30)100% ),url(asset/Images/Design.gif),no-repeat; */
+    background-color: rgb(238, 238, 238);
+    background-position:center;
+    background-size: cover;
+    
+}
+.tw-course-card{
+    width: 90%;
+    min-height: 100vh;
+    /* border: 1px solid; */
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5vh;
+    transition: 1s;
+}
+
+@media (max-width:600px){
+    .tw-course-card{
+        padding: 1vh;
+    }
+}
+@media (max-width:500px){
+    .tw-course-card{
+        padding: 1vh;
+        width: 90%;
+    }
+}
+@media (max-width:400px){
+    .tw-course-card{
+        padding: 1vh;
+        width: 90%;
+    }
+}
+
+@media (max-width:350px){
+    .tw-course-card{
+        width: 100%;
+    }
+}
+.tw-course-card .tw-course-header{
+    width: 100%;
+    /* border: 1px solid; */
+    min-height: 15vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background:#6c5ce7;
+    border-radius: 10px;
+}
+.tw-course-header .tw-heading{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    min-height: 100%;
+    /* border: 1px solid; */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family:'Syne', sans-serif;
+}
+
+.tw-heading h1{
+    font-size: 50px;
+}
+.animate__animated.animate__zoomInDown {
+    --animate-duration: 2s;
+    color: white;
+  }
+@media(max-width:800px){
+    .tw-heading{
+        text-align: center;
+    }
+    .tw-heading h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:500px){
+    .tw-heading{
+         text-align: center;
+       
+    }
+    .tw-heading h1{
+         font-size: 20px;
+    }
+    .tw-heading p{
+        display: none;
+    }
+}
+@media (max-width:600px){
+    .tw-heading{
+         text-align: center;
+       
+    }
+  
+}
+
+.tw-course-header .tw-course-menu-first{
+    display: flex;
+    flex-direction: row;
+    min-width: 50%;
+    min-height: 100%;
+    border: 1px solid;
+    justify-content: center;
+    padding: 20px;
+}
+.tw-course-menu-first ul{
+    min-width: 100%;
+    min-height: 100%;
+    border: 1px solid;
+    justify-content: space-around;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family:'Syne', sans-serif;
+    flex-wrap: wrap;
+}
+.tw-course-menu-first ul li a{
+    color: black;
+    transition: 1s;
+    text-decoration: none;
+    font-weight: bold;
+}
+.tw-course-menu-first ul li:hover a{
+    color: blue;
+    transition: 1s;
+    background: none;
+}
+
+
+
+
+#tw-course-card-container{
+    width: 100%;
+    /* border: 1px solid; */
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+
+@media (max-width:500px){
+    #tw-course-card-container{
+        padding: 0px;
+    }
+ }
+ 
+
+.course-maincard{
+    width: 320px;
+    height: 450px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+    position: relative;
+}
+.course-maincard .course-poster{
+    width: 100%;
+    height: 50%;
+    font-family:'Syne', sans-serif;
+    transition:all 0.2s ease-in-out;
+    position: relative;
+}
+.course-maincard .course-poster img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.course-poster h6{
+    font-size: 15px;
+    background:#6c5ce7;
+    min-width:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right:10px;
+    padding: 5px;
+
+}
+.course-maincard .maincard-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid; */
+    padding: 20px;
+    background: white;
+}
+.first-panel{
+    width: 100%;
+    flex-direction: row;
+    height:25px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 10px; 
+    font-family:'Lexend', sans-serif;
+    margin-bottom: 10px;
+}
+.first-panel .lesson{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+.lesson span{
+    margin-right: 5px;
+}
+#star{
+    color: goldenrod;
+}
+
+.second-panel{
+    width: 100%;
+    flex-direction: row;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    font-family:'Lexend', sans-serif;
+    margin-bottom: 10px;
+}
+.second-panel h2{
+    transition: 0.5s;
+    font-size: 20px;
+    padding: 0 10px;
+}
+h2:hover {
+    color: blue;
+    transition: 0.5s;
+}
+.third-panel{
+    width: 100%;
+    flex-direction: row;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid; */
+    font-family:'Lexend', sans-serif;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.third-panel .instructor-dp{
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid; */
+    background: url(../images/men1.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.instructor-name{
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+}
+.bottomborder{
+    border-bottom: 0.5px solid #000;
+    width: 100%;
+}
+.fourth-panel{
+    width: 100%;
+    flex-direction: row;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+    font-family:'Lexend', sans-serif;
+    padding: 0 10px;
+}
+.fourth-panel h6{
+    font-size: 20px;
+}
+.fourth-panel h6:hover{
+    color: blue;
+    transition: 1s;
+}
+.fourth-panel .tw-knowmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tw-knowmore h6{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.tw-knowmore h6 a{
+    text-decoration: none;
+    color: black;
+}
+.tw-knowmore:hover{
+    color: blue;
+    transition: 1s;
+}
+@media (max-width:640px){
+    .first-panel{
+        font-size: 15px;
+    }
+    .second-panel h2{
+        font-size: 15px;
+    }
+
+    .fourth-panel h6{
+        font-size: 15px;
+    }
+}
+
+
+
+/* Hover Card */
+.course-maincard .tw-hover-card{
+    width: 320px;
+    height: 450px;
+    position: absolute;
+    visibility: hidden;
+    background: white;
+    padding: 10%;
+    border-radius: 5px;
+    font-family: 'Lexend';
+    
+}
+.course-maincard:hover .tw-hover-card{
+    visibility:visible;
+    transition: 1s;
+    box-shadow: 5px 5px  15px rgba(0, 0,0,0.2);
+    z-index: 1;
+    transform: scale(1.02);
+
+}
+@media(max-width:900px){
+    .course-maincard:hover .tw-hover-card{
+        display: none;
+    }
+}
+
+
+.tw-hover-card .tw-course-detail{
+    width: 100%;
+    height:100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 5%;
+}
+.tw-course-detail .tw-instructor{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid; */
+    height: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    
+    margin: 10px 0;
+}
+.tw-instructor .instructor-dp{
+    height: 30px;
+    width: 30px;
+    background: url(../images/men1.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+#course-name{
+    width: 100%;
+    height: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    margin-bottom:10px ;
+}
+
+
+
+
+.tw-course-level{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid; */
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 20px;
+}
+.tw-level{
+    min-width: 40%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+ 
+}
+.tw-level span{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.tw-level h6{
+    font-size: 15px;
+}
+.tw-level:hover i{
+    font-weight: bold;
+    transition: 0.5s;
+    color: green;
+}
+.tw-duration{
+    min-width: 40%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tw-duration span{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.tw-duration h6{
+    font-size: 15px;
+}
+.tw-course-detail a{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    text-decoration: none;
+    margin-bottom:20px ;
+}
+.tw-course-detail a input{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    background-color:#0984e3;
+    border: none;
+    font-weight: bolder;
+    color: white;
+}
+.tw-course-detail a input:hover{
+    background-color: #00b894;
+}
+#course-brief{
+    width:100%;
+    min-height: 50px;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.tw-course-detail .wishlist-price{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+}
+.wishlist-price .wishlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-width: 40%;
+    height: 40px;
+}   
+.wishlist span{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:30px;
+    /* border: 1px solid; */
+    margin-right:10px;
+   
+}
+.wishlist:hover span i {
+    font-weight: bolder;
+    color: red;
+    transition: 0.3s;
+}
+.wishlist h6{
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.wishlist .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 40%;
+    height: 40px;
+}
+.price h6{
+    padding: 0px 10px;
+    font-size: 20px;
+    
+}
+
